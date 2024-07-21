@@ -1,0 +1,5 @@
+007spi_rx_arduino.c:11:6:delay	16	static
+007spi_rx_arduino.c:36:6:SPI2_GPIOInits	24	static
+007spi_rx_arduino.c:67:6:SPI2_Inits	24	static
+007spi_rx_arduino.c:84:6:GPIO_ButtonInit	24	static
+007spi_rx_arduino.c:100:5:main	72	static

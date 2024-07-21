@@ -1,0 +1,51 @@
+!SESSION 2024-07-22 00:53:50.521 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-22 00:54:01.590
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-22 00:54:01.635
+!MESSAGE Log4j initialized with config file D:\Embedded\Embedded-C-UdemyCourse\My_workspace_restore\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-22 00:54:04.351
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 00:54:27.982
+!MESSAGE Indexed '001HelloWorld' (3 sources, 0 headers) in 0.18 sec: 69 declarations; 44 references; 12 unresolved inclusions; 0 syntax errors; 36 unresolved names (24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 00:54:28.058
+!MESSAGE Indexed '002LedOn' (3 sources, 0 headers) in 0.021 sec: 70 declarations; 42 references; 11 unresolved inclusions; 0 syntax errors; 37 unresolved names (25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 00:54:28.458
+!MESSAGE Indexed 'stm32f4xx_drivers' (8 sources, 6 headers) in 0.168 sec: 559 declarations; 2,341 references; 13 unresolved inclusions; 0 syntax errors; 322 unresolved names (10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 00:54:28.799
+!MESSAGE Indexed '003InputRead' (3 sources, 0 headers) in 0.014 sec: 73 declarations; 47 references; 11 unresolved inclusions; 0 syntax errors; 43 unresolved names (26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 00:54:28.986
+!MESSAGE Indexed '000Test' (3 sources, 53 headers) in 0.184 sec: 1,964 declarations; 2,809 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2024-07-22 01:25:00.017
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element 016uart_uppercase.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:583)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2024-07-22 01:25:00.018
+!MESSAGE Element 016uart_uppercase.c does not exist.
